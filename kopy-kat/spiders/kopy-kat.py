@@ -5,7 +5,7 @@ class KopyKat(scrapy.Spider):
     name = 'kopy-kat'
 
     custom_settings = {
-        "KOPY-KAT_BASE_URL": "https://github.com/sulphurcrested/",
+        "KOPY-KAT_BASE_URL": "https://github.com/sulphurcrested/Kopy-Kat",
         "KOPY-KAT_BASE_CONTENT_PATH": "./content/",
         "KOPY-KAT_SAVE_FILE": False,
         "KOPY-KAT_MAX_CRAWLS": 0
