@@ -4,8 +4,9 @@ kopy-kat is a scrapy spider that crawls a website and copy it's content!
 
 Settings
 --------
-Before setting Kopy-Kat, you need to install **Scapy**:
-``pip install scrapy``
+Before setting Kopy-Kat, you need to install **[Scapy](https://docs.scrapy.org/en/latest/)**:
+``pip install Scrapy``
+
 
 The kopy-kat spider is called ``kopy-kat.py`` and is located under ``kopy-kat/spiders``.
 At the top of the class modify the ``custom_settings`` object to point to a base url and
