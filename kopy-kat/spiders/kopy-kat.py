@@ -1,3 +1,7 @@
+##
+## Created by Samih Hijwel - 11 Dec 2023
+##
+
 import scrapy, os, re, sys
 
 
