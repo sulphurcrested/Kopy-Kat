@@ -4,11 +4,11 @@ kopy-kat is a scrapy spider that crawls a website and copy it's content!
 
 Settings
 --------
-Before setting Kopy-Kat, you need to install `Scapy`:
+Before setting Kopy-Kat, you need to install **Scapy**:
 ``pip install scrapy``
 
-The kopy-kat spider is called `kopy-kat.py` and is located under `kopy-kat/spiders`.
-At the top of the class modify the `custom_settings` object to point to a base url and
+The kopy-kat spider is called ``kopy-kat.py`` and is located under ``kopy-kat/spiders``.
+At the top of the class modify the ``custom_settings`` object to point to a base url and
 a base content path::
 
         custom_settings = {
@@ -23,7 +23,7 @@ The Kopy-Kat Config:
         that **does not** start with this URL.
     * ``KOPY-KAT_BASE_CONTENT_PATH``: the local path where to save the copied content. The content will be
         structured in different directories as refrenced by website structure.
-    * ``KOPY-KAT_SAVE_FILE``: usually `True` to save the content or set it to `False` to play with Kopy-Kat!
+    * ``KOPY-KAT_SAVE_FILE``: usually ``True`` to save the content or set it to ``False`` to play with Kopy-Kat!
     * ``KOPY-KAT_MAX_CRAWLS``: the maximum number of links to crawl (and copy). If it is set to less than or 
         equal to zero then Kopy-Kat will crawl (and copy) the entire site.
 
