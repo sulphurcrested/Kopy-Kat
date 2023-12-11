@@ -11,7 +11,7 @@ The kopy-kat spider is called `kopy-kat.py` and is located under `kopy-kat/spide
 At the top of the class modify the `custom_settings` object to point to a base url and
 a base content path. 
 
-.. code-block:: python
+::
     custom_settings = {
             "KOPY-KAT_BASE_URL": "https://github.com/sulphurcrested/Kopy-Kat",
             "KOPY-KAT_BASE_CONTENT_PATH": "./content/",
