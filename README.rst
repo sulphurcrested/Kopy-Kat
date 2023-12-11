@@ -9,15 +9,14 @@ Before setting Kopy-Kat, you need to install `Scapy`:
 
 The kopy-kat spider is called `kopy-kat.py` and is located under `kopy-kat/spiders`.
 At the top of the class modify the `custom_settings` object to point to a base url and
-a base content path. 
+a base content path::
 
-::
-    custom_settings = {
-            "KOPY-KAT_BASE_URL": "https://github.com/sulphurcrested/Kopy-Kat",
-            "KOPY-KAT_BASE_CONTENT_PATH": "./content/",
-            "KOPY-KAT_SAVE_FILE": True,
-            "KOPY-KAT_MAX_CRAWLS": -1
-        }
+        custom_settings = {
+                "KOPY-KAT_BASE_URL": "https://github.com/sulphurcrested/Kopy-Kat",
+                "KOPY-KAT_BASE_CONTENT_PATH": "./content/",
+                "KOPY-KAT_SAVE_FILE": True,
+                "KOPY-KAT_MAX_CRAWLS": -1
+            }
 
 The Kopy-Kat Config:
     * ``KOPY-KAT_BASE_URL``: the website url to be copied by Kopy-Kat. Kopy-Kat will not copy any content
